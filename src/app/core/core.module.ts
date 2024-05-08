@@ -14,6 +14,9 @@ import { SignupComponent } from './components/signup/signup.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    HomeComponent
   ]
 })
 export class CoreModule { }
